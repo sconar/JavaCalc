@@ -1,0 +1,49 @@
+<!--
+User Story: I can add, subtract, multiply and divide two numbers.
+
+User Story: I can clear the input field with a clear button.
+
+User Story: I can keep chaining mathematical operations together until I hit the equal button, and the calculator will tell me the correct output.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/JavaCalc.css" type="text/css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/JavaCalc.js"></script>
+  </head>
+</html>
+<body>
+  <h1>JavaScript Calculator</h1>
+  <div id="calc">
+    <form>
+      <input type="text" id="disp" disabled>
+      <br>
+      <input type="button" id="keys" value="C" onclick="screen('c')" class="btn-danger">
+      <input type="button" id="keys" value="CE" onclick="back()" class="btn-warning">
+      <input type="button" id="keys" value="x^2" onclick="power()" class="btn-info">
+      <input type="button" id="keys" value="/" onclick="screen('/')" class="btn-info">
+      <br>
+      <input type="button" id="keys" value="7" onclick="screen('7')">
+      <input type="button" id="keys" value="8" onclick="screen('8')">
+      <input type="button" id="keys" value="9" onclick="screen('9')">
+      <input type="button" id="keys" value="*" onclick="screen('*')" class="btn-info">
+      <br>
+      <input type="button" id="keys" value="4" onclick="screen('4')">
+      <input type="button" id="keys" value="5" onclick="screen('5')">
+      <input type="button" id="keys" value="6" onclick="screen('6')">
+      <input type="button" id="keys" value="+" onclick="screen('+')" class="btn-info">
+      <br>
+      <input type="button" id="keys" value="1" onclick="screen('1')">
+      <input type="button" id="keys" value="2" onclick="screen('2')">
+      <input type="button" id="keys" value="3" onclick="screen('3')">
+      <input type="button" id="keys" value="-" onclick="screen('-')" class="btn-info">
+      <br>
+      <input type="button" id="keys" value="." onclick="screen('.')">
+      <input type="button" id="keys" value="0" onclick="screen('0')">
+      <input type="button" id="equal" value="=" onclick="equals()" class="btn-success">
+    </form>
+    <h4> "There is no spoon." </h4>
+  </div>
+</body>

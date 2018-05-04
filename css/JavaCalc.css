@@ -1,0 +1,49 @@
+body {
+  background: url(http://www.modafinilsale.com/data/out/180/233397973-the-matrix-wallpapers.png) no-repeat ;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: auto;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 5px lime;
+}
+
+#calc {
+  width: 217px;
+  height: 350px;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 50px auto;
+  box-shadow: 3px 3px 6px lime, -3px -3px 6px lime;
+}
+
+#disp {
+  border-radius: 4px;
+  width: 172px;
+  margin-bottom: 5px;
+  box-shadow: 1px 1px 6px lime, -1px -1px 6px lime;
+}
+
+#keys {
+  width:40px;
+  margin-bottom: 3px;
+  box-shadow:1px 1px 6px lime;
+  border-radius: 4px;
+}
+
+#equal{
+  width:85px;
+  border-radius: 4px;
+    box-shadow: 1px 1px 6px lime;
+
+}
+
+h4 {
+  color: white;
+  text-shadow: 2px 2px 3px lime;
+  margin-top: 100px;
+}
